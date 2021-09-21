@@ -2,6 +2,12 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Color Palette
+This projects is created using React, Bootstrap & Values.js
+
+## Live working example
+[https://flamboyant-mclean-7bc3f8.netlify.app](https://flamboyant-mclean-7bc3f8.netlify.app)
+
 ## Available Scripts
 
 In the project directory, you can run:
