@@ -21,20 +21,26 @@ function App() {
 
   return (
     <>
-      <section className='container'>
-        <h3>color generator</h3>
-        <form onSubmit={handleSubmit}>
+      <div className="container">
+        <div className="row">
+      <section className='col-md-12'>
+        <div className="handle">
+        <p className="title">COLOR GENERATOR</p>
+        <form className="form-inline" onSubmit={handleSubmit}>
+        <div className="form-group col-md-6 mb-2">
           <input
             type='text'
             value={color}
             onChange={(e) => setColor(e.target.value)}
             placeholder='#f15025'
-            className={`${error ? 'error' : null}`}
+            className={`${error ? 'error' : 'form-control form-control-sm'}`}
           />
-          <button className='btn' type='submit'>
+        </div>
+          <button className='btn btn-sm' type='submit'>
             submit
           </button>
         </form>
+        </div>
       </section>
       <section className='colors'>
         {list.map((color, index) => {
@@ -48,6 +54,8 @@ function App() {
           )
         })}
       </section>
+      </div>
+      </div>
     </>
   )
 }
