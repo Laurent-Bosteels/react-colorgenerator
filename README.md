@@ -1,6 +1,6 @@
 # Color Palette App
 
-This project is created using React, Bootstrap & Values.js
+This project is created using React, Bootstrap & Values.js\
 When clicked on a color you automatically copy it to your clipboard
 
 ## Live working example
